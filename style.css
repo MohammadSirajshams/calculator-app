@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .bg-img{
+    background-image: url(./images/beach-1751455__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+.bg-img{
+    position: relative;
+    background-image: cover;
+}
+h1{
+    position: absolute;
+    margin-left: 39%;
+    color: white;
+    font-size: 65px;
+    top: 40px;
+}
+.second-container input{
+    padding: 10px 18px;
+    margin-top: 5px;
+    border: 1px solid rgb(133, 166, 238);
+    box-shadow: -1px 0px 5px 2px rgb(133, 166, 238);
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+/* .ff-container{
+    displa
+} */
+.first-container{
+    position: absolute;
+    top: 160px;
+    border: 1px solid rgb(133, 166, 238);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: -1px 0px 5px 2px rgb(133, 166, 238);
+}
+.third-container{
+    padding: 8px 0;
+    margin-top: 15px;
+}
+
+.third-container .part1 button{
+    /* padding: 8px 14px;
+    border: 1px solid black;
+    border-radius: 40%; */
+    padding: 10px 15px;
+    border: 1px solid rgb(68, 108, 196);
+    border-radius: 40%;
+    box-shadow: -1px 2px 2px 1px rgb(68, 108, 196);
+    margin: 6px;
+    background: transparent;
+    color: white;
+}
+.third-container .part2  button,.part3  button,.part4  button,.part5 button{
+    padding: 10px 15px;
+    border: 1px solid rgb(68, 108, 196);
+    border-radius: 40%;
+    box-shadow: -1px 2px 2px 1px rgb(68, 108, 196);
+    margin: 6px;
+    background: transparent;
+    color: white;
+}
+.part5 .ac{
+    font-size: 14px;
+    padding: 10px 12px;
+}
+.part4 .ac{
+    font-size: 16px;
+    /* padding: 11px 14px; */
+}
+.part1 .ac{
+    font-size: 12px;
+    padding: 0px 8px;
+}
